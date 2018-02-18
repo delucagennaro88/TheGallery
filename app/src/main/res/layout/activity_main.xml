@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gallery" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="The"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="ArtGallery"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_weight="0"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="Tue–Sun 10:00-16:00 | 650-555-5555 | www.gildemeester.nl | Herengracht, Amsterdam (NL)"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/motto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="90dp"
+        android:layout_weight="0"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="Over 300 paintings (Rubens, Rembrandt, Ter Borch etc.) \n OPEN to the public."
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
